@@ -11,7 +11,7 @@ public class Calabash extends Creature implements Runnable {
     private int target = 0;
 
     public Calabash(Color color, int index, World world, WorldScreen ws) {
-        super(color, (char) 2, world, index, 60);
+        super(color, (char) 2, world, index, 40);
         this.wscreen = ws;
     }
 
